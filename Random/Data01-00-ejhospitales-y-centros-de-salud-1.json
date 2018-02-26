@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Hospital Materno Infantil Dr. Nicolás M. Cedillo",
+    "description": "Director: Dra. Patricia Flores Galicia Dirección: Gustavo J. S/n, Esq. Víctor Hernández Covarrubias, Col. Unidad Francisco Villa Delegación Azcapotzalco C.P. 02400. Teléfono: 53 94 05 65",
+    "coordinates": "-99.203300,19.498251,0.000000"
+  },
+  {
+    "name": "Hospital Pediátrico Azcapotzalco",
+    "description": "Director: Dra. Guadalupe Alejandra Santillán MuñozDirección: Los Reyes, Azcapotzalco, Ciudad de México, DFTeléfono: 55 61 28 54",
+    "coordinates": "-99.185608,19.484491,0.000000"
+  },
+  {
+    "name": "Hospital Materno Infantil Cuautepec",
+    "description": "Director: Dr. Roberto Pérez AguilarDirección: Emiliano Zapata No 17, Col. Cuautepec Barrio Bajo Delegación Gustavo A. Madero C.P. 07200. Teléfono: 53 06 21 90",
+    "coordinates": "-99.140785,19.539803,0.000000"
+  },
+  {
+    "name": "Hospital General Ticomán",
+    "description": "Director: Dr. Carlos Vazquez Noriega Dirección: Plan de San Luis S/n, Col. Ticomán Delegación Gustavo A. Madero. C.P. 07330. Teléfono: 57 54 39 79",
+    "coordinates": "-99.138245,19.514547,0.000000"
+  },
+  {
+    "name": "Hospital Pediátrico Villa",
+    "description": "Director: Dra. María del Rocío Lima Carcaño Dirección: Avenida Cantera, Esq. Hidalgo S/n, Col. Estanzuela Delegación Gustavo A. Madero C.P. 07050. Teléfono: 57 81 20 69",
+    "coordinates": "-99.113876,19.487551,0.000000"
+  },
+  {
+    "name": "Hospital Pediátrico San Juan de Aragón",
+    "description": "Director: Dr. Raúl Contreras Artine Dirección: Av. 506 entre calle 517 y 521, Col. San Juan de Aragón 1a. Sección Del. Gustavo A. Madero C.P. 07969. Teléfono: 55 51 00 03",
+    "coordinates": "-99.092812,19.457306,0.000000"
+  },
+  {
+    "name": "Hospital General La Villa",
+    "description": "Director: Dr. Enrique Garduño Salvador Dirección: Av. San Juan de Aragón No 28, Col. Granjas Modernas. Delegación Gustavo A. Madero C.P. 07460. Teléfono: 55 77 88 67",
+    "coordinates": "-99.103371,19.480774,0.000000"
+  },
+  {
+    "name": "Hospital Pediátrico Legaria",
+    "description": "Director: Dr. Arturo Rafael Capistrán Guadalajara Dirección: Calzada Legaría 371, Col. México Nuevo, Delegación Miguel Hidalgo C. P. 11260. Teléfono: 50 82 76 42",
+    "coordinates": "-99.202934,19.450733,0.000000"
+  },
+  {
+    "name": "Hospital General Dr. Rubén Leñero",
+    "description": "Director: Dr. José Alfredo Jiménez Douglas Dirección: Plan de San Luis y Díaz Mirón, Col. Casco de Santo Tomás Delegación Miguel Hidalgo C.P. 11340. Teléfono: 53 41 17 93",
+    "coordinates": "-99.169189,19.450987,0.000000"
+  },
+  {
+    "name": "Hospital Pediátrico Tacubaya",
+    "description": "Director: Dr. Carlos Javier Arnaiz Toledo Dirección: Calle Carlos Lazo No.25, Esq. Gaviota, Col. Tacubaya Delegación Miguel Hidalgo C.P. 11870. Teléfono: 55 15 79 20",
+    "coordinates": "-99.190842,19.402475,0.000000"
+  },
+  {
+    "name": "Hospital General Dr. Gregorio Salas Flores",
+    "description": "Director: Dr. Argemiro José Genes Naar Dirección: Carmen No. 41, Col. Centro Delegación Cuauhtémoc C.P 06020. Teléfono: 57 02 03 72",
+    "coordinates": "-99.129356,19.437643,0.000000"
+  },
+  {
+    "name": "Hospital Pediátrico Peralvillo",
+    "description": "Director: Dr. Emilio Escobar Picazo Dirección: Tolnahuac No. 14, Col. San Simón Delegación Cuauhtémoc C.P. 06920. Teléfono: 55 83 41 80",
+    "coordinates": "-99.141022,19.460251,0.000000"
+  },
+  {
+    "name": "Hospital Materno Infantil Iniguarán",
+    "description": "Director: Dr. Martín Viveros Alcaraz Dirección: Estaño No. 307, Esq. Congreso de la Unión, Col. Felipe Ángeles Delegación Venustiano Carranza C.P 15310. Teléfono: 57 95 67 64",
+    "coordinates": "-99.113228,19.452307,0.000000"
+  },
+  {
+    "name": "Hospital General Balbuena",
+    "description": "Director: Dr. Miguel Angel Martínez Guzmán Dirección: Cecilio Róbelo y sur No.103, Col. Aeronáutica Militar, Delegación Venustiano Carranza C.P. 15900. Teléfono: 55 52 16 02",
+    "coordinates": "-99.115303,19.424906,0.000000"
+  },
+  {
+    "name": "Hospital Pediátrico Moctezuma",
+    "description": "Director: Dr. Enrique Grania Pozada Dirección: Oriente 158 No. 189, Col. Moctezuma 2da. Sección, Delegación Venustiano Carranza C.P. 15530. Teléfono: 55 71 40 57",
+    "coordinates": "-99.098358,19.432852,0.000000"
+  },
+  {
+    "name": "Hospital Materno Infantil Cuajimalpa",
+    "description": "Director: Dra. María del Rosario Arrazola Flores Dirección: Av. 16 de Septiembre s/n, Col. Contadero, Delegación Cuajimalpa de Morelos C.P.06500. Teléfono: 58 12 22 11",
+    "coordinates": "-99.301117,19.347433,0.000000"
+  },
+  {
+    "name": "Hospital General Dr. Enrique Cabrera",
+    "description": "Director: Dra. Arcelia Martínez González Dirección: Av. Centenario, esquina prolongación 5 de mayo, Col. Exhacienda de Tarango, Delegación Álvaro Obregón Teléfono: 12 85 29 54",
+    "coordinates": "-99.224678,19.361961,0.000000"
+  },
+  {
+    "name": "Hospital General Xoco",
+    "description": "Director: Dr.Jorge Arturo Aviña Valencia Dirección: Av. México Coyoacán s/n, Esq. Bruno Traven, Col. General Anaya, Delegación Benito Juárez C.P. 30340. Teléfono: 56 88 91 31",
+    "coordinates": "-99.163162,19.360050,0.000000"
+  },
+  {
+    "name": "Hospital Pediátrico Iztacalco",
+    "description": "Director: Dr. Hugo Caballero Novara Dirección: Avenida Coyuya y Terraplén de Río Frío S/n, Col. La Cruz, Delegación Iztacalco C.P. 08310. Teléfono: 56 57 93 75",
+    "coordinates": "-99.117943,19.402376,0.000000"
+  },
+  {
+    "name": "Hospital Pediátrico Coyoacán",
+    "description": "Director: Dr. Miguel Camarillo Valencia Dirección: Moctezuma No. 18, Col. Del Carmen Coyoacán, Delegación Coyoacán C.P. 0400. Teléfono: 55 54 28 60",
+    "coordinates": "-99.167725,19.345737,0.000000"
+  },
+  {
+    "name": "Hospital Pediátrico Iztapalapa",
+    "description": "Director: Dr. Ramón Carballo Herrada Dirección: Calzada Ermita Iztapalapa No. 780, Col. Granjas San Antonio, Delegación Iztapalapa C.P. 09070. Teléfono: 56 85 94 16",
+    "coordinates": "-99.107689,19.356548,0.000000"
+  },
+  {
+    "name": "Hospital de Especialidades Dr. Belisario Domínguez",
+    "description": "Director: Dr. Osvaldo González La Riviere Dirección: Av. Tlahuac No. 4866, Esq. Zacatlan, Col. San Lorenzo Tezonco, Delegación Iztapalapa C.P. 09790. Teléfono: 58 50 00 02",
+    "coordinates": "-99.065460,19.306768,0.000000"
+  },
+  {
+    "name": "Hospital General Iztapalapa C.E.E.",
+    "description": "Director: Dr. Benjamín Méndez Pinto Dirección: Avenida Ermita Iztapalapa no. 3018, Col. Citlali; Delegación Iztapalapa, CP 09660 Teléfono: 54293212",
+    "coordinates": "-99.027863,19.343451,0.000000"
+  },
+  {
+    "name": "Hospital Materno Infantil Topilejo",
+    "description": "Dirección: Calzada Santa Cruz No. 1, Col.San Miguel Topilejo, Delegación Tlalpan C.P. 14500. Teléfono: 58 48 08 70",
+    "coordinates": "-99.140236,19.199308,0.000000"
+  },
+  {
+    "name": "Hospital Materno Infantil Xochimilco",
+    "description": "Director: Dr. Victor Hugo Pulido Olivares Dirección: Prolongación 16 de Septiembre y Calzada Nativitas, Barrio Xaltocán, Delegación Xochimilco C.P. 16090. Teléfono: 56 76 49 93",
+    "coordinates": "-99.104958,19.254906,0.000000"
+  },
+  {
+    "name": "Hospital Materno Infantil Tláhuac",
+    "description": "Director: Dr. Raúl Ernesto Guevara Meléndez Machuca Dirección: Av. Tláhuac Chalco No. 231, Col. La Habana, Delegación Tláhuac C.P. 13050. Teléfono: 58 42 36 01 &nbsp;",
+    "coordinates": "-98.997925,19.265505,0.000000"
+  },
+  {
+    "name": "Hospital General Milpa Alta",
+    "description": "Dirección: Dr.Benjamín Ortega Romero Dirección: Carretera Milpa Alta Chalco km. 2.5, Col. Villa Milpa Alta, Delegación Milpa Alta CP 12000 Teléfono: 2211-5839",
+    "coordinates": "-99.011253,19.200199,0.000000"
+  }
+]
