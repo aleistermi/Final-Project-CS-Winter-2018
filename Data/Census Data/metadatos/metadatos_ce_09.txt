@@ -1,0 +1,30 @@
+﻿Identifier: MEX-INEGI.CNE.03.05-CE-2014
+ 
+Title: Censos Económicos.
+
+Description: INEGI. Censos Económicos. SNIEG. Información de Interés Nacional.
+
+Presenta Información de Interés Nacional para generar estadística básica y actualizada de manera quinquenal sobre las unidades económicas productoras de bienes, comercializadoras de mercancías y prestadoras de servicios, lo que permite presentar indicadores económicos de México. Los Censos Económicos obtienen información económica básica de prácticamente todas las actividades económicas que se efectúan en el país, excepto las agrícolas, ganaderas y forestales. Se cubren todas las localidades geoestadísticas de 2,500 habitantes y más, así como las cabeceras municipales independientemente del número de sus habitantes. Todos los parques y corredores industriales y turísticos. La información obtenida por los Censos Económicos tiene múltiples usos en proyectos públicos,  privados y sociales. Hacen posible la planeación, la elaboración y la evaluación de políticas públicas orientadas a la promoción de la competitividad, la productividad y el empleo. Los Censos Económicos permiten conocer las características de la micro, pequeña y mediana empresa y brindan múltiples elementos para la toma de decisiones que contribuyen a fortalecer la productividad tanto de las empresas ya constituidas como la de los nuevos emprendedores. Los Censos Económicos son la única fuente en México que muestra detalladamente las características de la economía nacional, es decir, geográficamente reporta datos a nivel nacional, estatal y municipal; sectorialmente, presenta prácticamente todas las actividades económicas (no agropecuarias) del país por sector y variables calculadas sobre las unidades económicas censadas. Los Censos Económicos constituyen la única fuente de información en el país que ofrece la posibilidad de obtener marcos estadísticos de establecimientos, factibles de explotar para diversos estudios económicos. Esto ha permitido la concepción de diversas encuestas oficiales y particulares en el ámbito nacional que dan cuenta de grupos sectoriales y regionales sobre múltiples temas de tipo económico. Los Censos Económicos proporcionan datos estadísticos económicos básicos al Sistema de Cuentas Nacionales, lo que permite el cambio de año base de las mismas y proporcionan, además, información necesaria e indispensable para elaborar la Matriz de Insumo-Producto del país. En general, constituyen la infraestructura estadística indispensable para la generación de indicadores tan importantes como el Producto Interno Bruto (PIB). En definitiva, en el ámbito estadístico, los Censos Económicos son la columna vertebral del Subsistema Nacional de Información Económica, ya que representan una fuente de información directa que se convierte en referencia fundamental para el análisis y la evaluación de las estadísticas continuas (registros administrativos y encuestas), y proporcionan información básica para la elaboración de marcos de muestreo, necesarios en el diseño y la realización de encuestas que registren con mayor detalle y frecuencia algunos aspectos concretos que se considere necesario investigar.
+
+Modified: 2015-05-29
+
+Publisher: Instituto Nacional de Estadística y Geografía, INEGI
+
+Mbox: atencion.usuarios@inegi.org.mx
+
+License: Términos de Libre Uso de la Información del INEGI http://www.inegi.org.mx/terminos/terminos_info.aspx
+
+DataDictionary: http://www3.inegi.org.mx/rnm/index.php/catalog/170/data_dictionary?idPro=
+
+Keyword: Censos, Económicos, Personal ocupado, Remuneraciones, Producción, Gastos, Ingresos, Activos fijos, Existencias, Financiamiento, Cuentas bancarias, Industria, Comercio, Servicios, Pesca, Minería, Construcción, Electricidad, Petróleo, Agua, Transportes, Sector, Subsector, Rama de actividad, Clase de actividad
+
+ContactPoint: Lic. José de Jesús Esquivel de la Rosa, 01800 111 4634
+
+Temporal: 2003-2014
+
+Spatial: Ciudad de México
+
+AccrualPeriodicity: Quinquenal
+
+Distribution: http://www.beta.inegi.org.mx/proyectos/ce/2014/
+
