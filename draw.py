@@ -66,14 +66,18 @@ def get_necessary_file(type_of_house, type_of_operation):
         filename =  "{} {}.csv".format(type_of_house, type_of_operation)
         return filename
 
-def main(type_of_house, type_of_operation, additional_information=None):
+def main(type_of_house, type_of_operation, additional_information, store=None):
+    filename = get_necessary_file(type_of_house, type_of_operation)
+    if filename == None:
+        print('Try it again')
+        return None
 
     cdmx_location = [19.4326077, -99.1332080]
     map_ = folium.Map(location=cdmx_location, zoom_start=12)
 
     geojson = r'CDMX.geojson'
 
-    filename = get_necessary_file(type_of_house, type_of_operation)
+
 
     price_df = pd.read_csv(filename, 
                             header = None, 
@@ -108,8 +112,10 @@ def main(type_of_house, type_of_operation, additional_information=None):
     # Delete the html file
 #    if check_open("map.html"):
     webbrowser.open(outfile)
-    time.sleep(30)
-    os.remove(outfile)
+
+    if not store:
+        time.sleep(30)
+        os.remove(outfile)
 
 
 def get_choropleth_map(geojson, map_, df, columnname, color ,name ,boudary=False):
