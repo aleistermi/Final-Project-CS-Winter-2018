@@ -32,10 +32,12 @@ The complementary variables we use are:
 
 #This is the location of the inputs for the project
 path = 'C:/Users/jesus/OneDrive/Documentos/GitHub/Final-Project-CS-Winter-2018\
-        /Raw_Data/Official_data'
+        Submission/Raw_Data/Official_data'
 #This is the location of the folder for the output files
 output_path = 'C:/Users/jesus/OneDrive/Documentos/GitHub/Final-Project-CS-\
-               Winter-2018/Raw_Data/outputs/'
+               Winter-2018/Submission/Raw_Data/outputs/'
+#### important ####
+#These paths most be substituted if the file is runed in a different location
 
 #1. Create the geodataframe containing the polygons of the neighborhoods of 
 # Mexico city, from a shapefile withnthat information.
