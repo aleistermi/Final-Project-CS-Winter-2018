@@ -2,84 +2,84 @@
 Keisuke Yokota: Responsible for draw.py, crawler0.py, crawler1.py, 
 				crawler2.py
 
-Aleister Monfort: Responsible for cleaning.py, crawler.py
+Aleister Monfort: Responsible for cleaning_data.py, crawler.py
 
 Jesus Ramirez: Complementary_variables.py, util_compvar.py, 
 			   merged_output.py, get_delegaciones_shape.py
 
 *** Folder: 'Final_Product' ***
-draw.py: You can get map with data about both housing price and other information
-	 such as crime, school, etc. by using function “draw” in this python file.
-	 You need to install python library “folium” by using a command
-	 “pip install folium” in linux command line.
-	 All you need to do is to run “python3 draw.py” in linux command line.
-	 Then you will get a message as an instruction how to get a map.
-	 After getting message, please follow the instruction.
+draw.py: You can draw a map with data on housing prices and other information
+	 such as crime, school, or earthquake damages, using the function “draw” in this python file.
+	 You will need to install python library “folium” by using a command
+	 “pip install folium” in the linux command line.
+	 All you need to do is to run “python3 draw.py” in linux command line, then you will get
+         a message with an instruction on how to produce a map.
+	 After getting the message, please follow the instructions.
 
 
 delegacion.geojson: Json file containing geographical data of delegation
 		   (municipality) in Mexico City
 
 
-neighnorhood.geojson: Json file containing geographical data of neighnorhood
-		     (most minute administrative district) in Mexico City
+neighborhood.geojson: Json file containing geographical data of neighborhood
+		      in Mexico City
 
 
-integrate.csv: CSV file containing information other than housing price data.
-	       It contains data as follows;
+integrate.csv: CSV file containing information other than housing prices.
+	       It contains data such as:
 	        * Number of Markets
 	        * Number of Schools
 	        * Number of Hospitals
 	        * Buldings w/ damage from 09-19-17 earthquake
 	        * Number of robberies
-		* Number of home robberies
+		* Number of home robberies (burglaries)
 		* Number of murders
 		* Number of transit stops
 		* Average temperature
 		* Population
 		* OBJECTID (unique id to each neighborhood)
 		* MUN_NAME (delegacion (municipality) name)
-		* SETT_NAME (neighborhood (most minute administrative district) name)
+		* SETT_NAME (neighborhood name)
 		* Number of robberies outside home
 
 
-house rent.scv: CSV file containing information on housing price data.
-	       It contains data as follows;
+house rent.csv: CSV file containing information on housing price data.
+	       It contains data as follows:
 	        * OBJECTID (unique id to each neighborhood)
-		* SETT_NAME (neighborhood (most minute administrative district) name)
+		* SETT_NAME (neighborhood name)
 		* price
 
 
-house sale.scv: CSV file containing information on housing price data.
-	       It contains data as follows;
+house sale.csv: CSV file containing information on housing price data.
+	       It contains data as follows:
 	        * OBJECTID (unique id to each neighborhood)
-		* SETT_NAME (neighborhood (most minute administrative district) name)
+		* SETT_NAME (neighborhood name)
 		* price
 
 
 
-apartment rent.scv: CSV file containing information on housing price data.
-	       It contains data as follows;
+apartment rent.csv: CSV file containing information on housing price data.
+	       It contains data as follows:
 	        * OBJECTID (unique id to each neighborhood)
-		* SETT_NAME (neighborhood (most minute administrative district) name)
+		* SETT_NAME (neighborhood name)
 		* price
 
 
-apartment sale.scv: CSV file containing information on housing price data.
+apartment sale.csv: CSV file containing information on housing price data.
 	       It contains data as follows;
 	        * OBJECTID (unique id to each neighborhood)
-		* SETT_NAME (neighborhood (most minute administrative district) name)
+		* SETT_NAME (neighborhood name)
 		* price
 
 
 *** Folder 'Raw_Data' ***
 
 Complememtary_variables.py: In this python file we make the computation of 
-	complementary variables (different from real estate prices) at 
-	neigborhood level. In Mexico neighborhood desagregation is not common, 
+	complementary variables (different from real estate prices) at the
+	neigborhood level. In Mexico, neighborhood desagregation is not common, 
 	most of the variables reported by the government are grouped by 
 	municipalities, but in some cases they publish files with metadata 
-	that inlcudes georeferences, we use those georeferences to obtain 
+	that includes some georeference. We use those georeferences to obtain 
 	statistics by neighborhood. The CSV files created by this python 
 	file are:
 
@@ -90,19 +90,19 @@ Complememtary_variables.py: In this python file we make the computation of
 		* home_robbery_by_colonia.csv: CSV file with number of home robberies 
 		  		reported by neighborhood.
 
-        * robbery_by_colonia.csv: CSV file with number of robberies reported
+        	* robbery_by_colonia.csv: CSV file with number of robberies reported
           		by neighborhood.
 
-        * murder_by_colonia.csv: CSV file with number of murders reported 
+        	* murder_by_colonia.csv: CSV file with number of murders reported 
           		by neighborhood.
 
-        * hospitals_by_colonia.csv: CSV file with number of hospital located
+        	* hospitals_by_colonia.csv: CSV file with number of hospital located
           		in each neighborhood.
 
 		* schools_by_colonia.csv: CSV file with number of schools located in 
 		  		each neighborhood.
 
-        * markets_by_colonia.csv: CSV file with number of markets located in 
+        	* markets_by_colonia.csv: CSV file with number of markets located in 
           		each neighborhood.
 
 		* stations_by_colonia.csv: CSV file with number of public transit 
@@ -135,7 +135,7 @@ Complememtary_variables.py: In this python file we make the computation of
 
 		* temp_pol (folder): Information about observed temperatures in monitoring
 		  stations in Mexico City and its location.
-		   - Socurce: Mexico City Government (2015).
+		   - Source: Mexico City Government (2015).
 		              'http://www.aire.cdmx.gob.mx/default.php?opc=%27aKBhnmE=&r=\
 		               aHR0cDovLzE0OC4yNDMuMjMyLjExMjo4MDgwL29wZW5kYXRhL2FudWFsZXN\
 		               faG9yYXJpb3MvbWV0ZW9yb2xvZ8OtYV8yMDE1LmNzdg=='
@@ -146,19 +146,19 @@ Complememtary_variables.py: In this python file we make the computation of
 		
 		* damage_p.csv: Information about the damages registered in Mexico City 
 		  				as a result of the earthquake of 09-19-2017.
-		  - Socurce: Federal Government of Mexico (2017).
+		  - Source: Federal Government of Mexico (2017).
 		             'https://docs.google.com/spreadsheets/d/1ijleBcHJH_\
 		              3V2nbMeXTjH4hTDYsjcdodYvHqhTc8C8c/edit?ts=59c52b3a#gid=0'
 		
 		* t_stations.csv: Information about the location of public transit stations
 						  in Mexico City.
-		  - Socurce: Mexico City Government (2015).
+		  - Source: Mexico City Government (2015).
 		  			 'http://datos.labcd.mx/dataset/932d9f5c-f74f-46a8-9f69-fcb066b20a59/\
 		  			  resource/b11f16da-506d-4da4-9c1d-210921d88e5c/download/st25.02.2015\
 		  			   .csv'
-	Finally, it is important to point out tha the variables 'path' and 'output_path' indicates
-	the route to input and outputs folders, so them have to be modified if this python file is
-	runned in a different directory.
+	Finally, it is important to point out that the variables 'path' and 'output_path' indicates
+	the route to input and outputs folders, so they have to be modified if this python file is
+	run in a different directory.
 
 util_compvar.py: Auxiliary functions used in 'Complementary_variables.py'
 
